@@ -1,0 +1,2 @@
+class XbaseController < ApplicationController
+end
