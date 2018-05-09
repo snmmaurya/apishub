@@ -11,7 +11,8 @@ Rails.application.routes.draw do
     namespace :api do
       namespace :v1 do
         get "categories", to: "data#categories"
-        get "categories/:category_id/positions", to: "data#positions"
+        get "categories/:category_id/positions", to: "data#positions_by_category"
+        get "positions", to: "data#positions"
       end
     end
   end

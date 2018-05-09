@@ -60,3 +60,13 @@ gem 'activeadmin_addons'
 
 gem 'carrierwave'
 gem 'fog-aws'
+
+gem 'config'
+
+group :development do
+  gem 'capistrano'
+  gem 'capistrano-bundler'
+  gem 'capistrano-passenger'
+  gem 'capistrano-rails'
+  gem 'capistrano-rvm'
+end
