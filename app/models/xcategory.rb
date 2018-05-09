@@ -5,7 +5,7 @@ class Xcategory < ApplicationRecord
   # has_many :xpositions, through: :xcategory_xpositions
   has_many :xpositions
 
-  validates :title, :description, :xcategory, :status, :image, presence: true
+  validates :name, :description, :xcategory, :status, :image, presence: true
 
   scope :active, -> {where(status: :on)}
 
