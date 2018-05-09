@@ -17,3 +17,9 @@
 /yarn-error.log
 
 .byebug_history
+
+/node_modules
+
+config/settings.yml
+config/database.yml
+config/secrets.yml
